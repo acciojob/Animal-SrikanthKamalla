@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+
+      .animal-photos {
+        background-color: #333;
+        text-align: center;
+        padding: 20px;
+        margin: 0 40px 0 40px;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .photo {
+        border-radius: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .photo img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
